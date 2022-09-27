@@ -1,0 +1,23 @@
+/* ID */
+{
+    color:red;
+    font-size:3rem;
+}
+h2 {
+    color:green
+}
+
+p {
+    color:grey;
+}
+
+#title
+{
+    color:green;
+    background:black;
+}
+
+#subheading{
+    color:red;
+    background-color:gray;
+}

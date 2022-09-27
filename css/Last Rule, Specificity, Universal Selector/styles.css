@@ -1,0 +1,7 @@
+/* Last Rule, Specificity, Universal Selector */
+.red {
+    color:red;
+}
+p {
+    color:blue;
+}

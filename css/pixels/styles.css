@@ -1,0 +1,12 @@
+/* Percent Values */
+.outer {
+    width: 400px;
+    height: 200px;
+    background:blue;
+}
+
+inner{
+    width: 50%;
+    height: 50%;
+    background:red;
+}

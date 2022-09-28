@@ -1,0 +1,25 @@
+/* 
+font-weight
+font-style
+
+*/
+
+body{
+    font-family:'Roboto',sans-serif;
+    font-style:italic;
+}
+
+.main {
+    font-family:'Yesyeryear',cursive;
+   
+}
+
+.subheading{
+    font-style:normal;
+}
+.one{
+   font-weight:bold;
+}
+.two{
+  font-weight:ligther;
+}

@@ -1,0 +1,21 @@
+/* HEX */
+
+#first {
+color:#ff0000;
+background: #000;
+}
+
+#second {
+    color: #fff;
+    background:#00FF00;
+}
+
+#three {
+    color:#0000ff;
+    background:#f15025;
+}
+
+#four {
+    color:#f234ad;
+    background:#222;
+}

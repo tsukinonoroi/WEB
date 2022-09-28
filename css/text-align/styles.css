@@ -1,0 +1,24 @@
+/* 
+
+text-align
+*/
+
+body{
+    font-family:'Roboto',sans-serif;
+    text-align:right;
+}
+
+.main {
+    font-family:'Yesyeryear',cursive;
+    text-align:center;
+}
+
+.subheading{
+    font-style:normal;
+}
+.one{
+    text-indent:10rem;
+}
+.two{
+  text-align:left;
+}

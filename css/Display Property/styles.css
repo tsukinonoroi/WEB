@@ -1,0 +1,15 @@
+/* 
+Dispay Property
+*/
+
+.block {
+    background: blue;
+    color:white;
+    display: inline;
+}
+
+.inline {
+    background:red;
+    color:white;
+    display:block;
+}

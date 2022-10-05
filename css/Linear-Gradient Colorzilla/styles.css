@@ -1,0 +1,32 @@
+div {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color:orange;
+}
+.banner {
+    background: url('/css/big.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url('/css/big.jpeg') cover/center fixed no-repeat;
+
+}
+
+.colorzilla {
+    background: -moz-linear-gradient(left
+    rgba(252,50,50,0.64) 0%
+    rgba(41,137,216,0.82) 49%
+    rgba(227,255,221,1) 100%
+    
+    );
+}
+

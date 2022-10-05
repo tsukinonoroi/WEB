@@ -1,0 +1,28 @@
+/* LAST RULE ORDER */
+div {
+    height: 400px;
+    color:red;
+    height: 200px;
+
+}
+
+.big-img {
+    background: url("/css/big.jpeg");
+    background-repeat: round;
+}
+
+.small-img {
+    border:2px solid red;
+    background: url("/css/smaill.jpeg");
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round;
+    
+}
+
+.folder-img {
+    background: url("/css/folder.jpeg");
+}

@@ -1,0 +1,26 @@
+/* background-size */
+div {
+    height: 400px;
+    color:red;
+    height: 200px;
+
+}
+
+.big-img {
+    background: url("/css/big.jpeg");
+    background-repeat: round;
+    background-size: cover;
+}
+
+.small-img {
+    border:2px solid red;
+    background: url("/css/smaill.jpeg");
+    background-size: cover;
+
+}
+
+.folder-img {
+    background: url("/css/folder.jpeg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}

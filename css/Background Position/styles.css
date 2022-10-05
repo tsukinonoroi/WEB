@@ -1,0 +1,33 @@
+/* background-position */
+div {
+    height: 400px;
+    color:red;
+    height: 200px;
+
+}
+
+.big-img {
+    background: url("/css/big.jpeg");
+    
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.small-img {
+    border:2px solid red;
+    background: url("/css/smaill.jpeg");
+    background-repeat: no-repeat;
+    /* background-position: center;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: top; */
+    background-position: 100% 100%;
+
+}
+
+.folder-img {
+    background: url("/css/folder.jpeg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}

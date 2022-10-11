@@ -1,0 +1,48 @@
+/*media queries */
+
+body {
+    background: purple;
+}
+
+.banner {
+    background: blue;
+}
+
+h1 {
+    color :  grey;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 123px) {
+body {
+background: pink;
+}
+.banner {
+    background: palevioletred;
+    border-radius: 11px;
+}
+h1 {
+    color:black;
+    font-size:44px;
+    text-align: right;
+}
+
+ @media screen and (max-width: 555px) {
+    body {
+    background: coral;
+    }
+    .banner {
+        background: yellow;
+    }
+    h1 {
+        color:grey;
+        font-size:44px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    }
+
+
+

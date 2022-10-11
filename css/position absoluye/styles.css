@@ -1,0 +1,23 @@
+/*position absolute */
+
+div {
+    border: 3px solid green;
+    background: cornflowerblue;
+    margin-top: 20px;
+    position: relative;
+   
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: rebeccapurple;
+   position: absolute;
+}
+
+.special {
+    background: cornsilk;
+    font-size: 25px;
+}

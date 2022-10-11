@@ -1,0 +1,32 @@
+/*position fixed */
+
+button {
+background: blue;
+font-size: 33px;
+color:grey;
+position: fixed;
+bottom:0;
+left: 0;
+
+}
+
+div {
+    border: 3px solid green;
+    background: cornflowerblue;
+    margin-top: 20px;
+}
+
+.one {
+    background: red;
+    position: relative;
+}
+
+.two {
+    background: rebeccapurple;
+  
+}
+
+.special {
+    background: cornsilk;
+    font-size: 25px;
+}

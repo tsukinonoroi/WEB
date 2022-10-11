@@ -1,0 +1,26 @@
+/*position relative */
+
+div {
+    border: 3px solid green;
+    background: cornflowerblue;
+    margin-top: 20px;
+    position:static;
+}
+
+.one {
+    background: red;
+    position:relative;
+    /* top:25px; */
+    /* left:20rem; */
+    /* right:35%; */
+    bottom:7px;
+}
+
+.two {
+    background: rebeccapurple;;
+}
+
+.special {
+    background: cornsilk;
+    font-size: 25px;
+}

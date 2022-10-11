@@ -1,0 +1,19 @@
+div {
+    border: 3px solid green;
+    background: cornflowerblue;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: rebeccapurple;;
+}
+
+.special {
+    background: cornsilk;
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+/* hover pseudo-class selector */
+
+p:hover {
+   color:grey;
+   font-style:unset;
+   background: black;
+   border: 5px solid purple;
+
+}
+
+.header:hover {
+    background: lightcyan;
+    color:aliceblue;
+}
+
+a:hover {
+    text-decoration:none;
+}

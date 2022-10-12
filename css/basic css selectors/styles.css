@@ -1,0 +1,25 @@
+/*basic css selectors*/
+
+* {
+    color:black;
+}
+
+#heading {
+    font-size: 33px;
+    text-transform: uppercase;
+    color:lightgreen
+    
+
+}
+
+.heading {
+    font-size: 22px;
+    text-transform: lowercase;
+    color:lightgoldenrodyellow;
+    background: lightsalmon;
+}
+
+p {
+    letter-spacing: 29px;
+    border: 5px solid black;
+}

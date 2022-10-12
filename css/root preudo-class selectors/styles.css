@@ -1,0 +1,19 @@
+/*root element */
+/*1 rem = 16 px!!!!!!!!!!!!!!!*/
+
+:root {
+    background: purple;
+    font-size: 50%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.lorem20 {
+    font-size: 1.9rem;
+}
+
+.lorem19 {
+    font-size: 1.5rem;
+}

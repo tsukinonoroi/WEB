@@ -1,0 +1,17 @@
+/* link : visited hover :active *//* hover pseudo-class selector */
+
+a:link {
+color: purple;
+}
+
+a:visited {
+ color:blue;
+}
+
+a:hover {
+    color:black;
+}
+
+a:active {
+    color:blanchedalmond;
+}

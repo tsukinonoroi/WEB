@@ -1,0 +1,29 @@
+/* transition: change over time */
+
+div {
+    width:175px;
+    height:175px;
+    display: inline-block;
+}
+
+div:hover {
+    background: pink;
+}
+
+.one {
+    background: blue;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: black;
+    transition-property: background;
+    transition-duration: 3s, 2s;
+}
+
+.three:hover {
+border-radius: 55%;
+}

@@ -1,0 +1,41 @@
+/* transition: change over time 
+transition delay */
+
+div {
+    width:175px;
+    height:175px;
+    display: inline-block;
+}
+
+div:hover {
+    background: pink;
+}
+.one:hover {
+    background: lightsalmon;
+}
+
+.one {
+    background: blue;
+    transition: all 10s 5s;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: black;
+    /*transition-property: background;
+    border-radius;
+    transition-duration: 3s, 2s;
+    transition-delay: 3s; */
+
+    /* transition: background 5s 1s,
+    border-radius 1s 3s; */
+    transition: all 5s;
+}
+
+.three:hover {
+/* border-radius: 55%; */
+background: coral;
+}

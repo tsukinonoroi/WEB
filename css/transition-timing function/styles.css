@@ -1,0 +1,34 @@
+/*transition timing func*/
+
+div {
+    width:115px;
+    height:115px;
+    background: lightpink;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    transition: all 1s linear;
+}
+
+div:hover {
+    transform: translateX(500px);
+}
+
+.ease {
+    /* transition: all 2s ease; */
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.easein {
+    transition-timing-function: ease-in;
+}
+.easeout {
+    transition-timing-function: ease-out;
+}
+.easeinout {
+    transition-timing-function: ease-in-out;
+}

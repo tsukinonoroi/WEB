@@ -1,0 +1,50 @@
+/* css variables
+*/
+
+/* .heading {
+    color:green;
+}
+
+.text {
+    color:blue;
+}
+
+.main-text {
+    color:red;
+}
+
+.second-heading {
+    color:azure;
+}
+*/
+
+:root{
+    --primarycolor:blue;
+    --secondarycolor:green;
+    --mainTransition: all 0.4s linear;
+}
+
+.heading {
+    color: var(--primarycolor);
+    
+}
+
+.second-heading {
+    color:var(--primarycolor);
+}
+
+.second-heading:hover {
+    color: var(--secondarycolor);
+}
+
+div {
+    --primarypink:pink;
+}
+
+.main-text {
+    color:var(primarypink);
+}
+
+.third-heading {
+    color: var(--primarypink);
+}

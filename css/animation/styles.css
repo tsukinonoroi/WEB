@@ -1,0 +1,51 @@
+/* transtiion 0 = 100% 
+animation 0 1 2 ......................... 100%%%%%%%%%%
+*/
+
+div {
+    width: 200px;
+    height: 100px;
+    color:blue;
+    margin: 15px;
+}
+
+.transition {
+    background: pink;
+    transition: all 2.5s linear;
+}
+
+.transition:hover {
+    background: lightgrey;
+    transform: translate(150px);
+}
+
+.animation {
+    /* background: red;
+    animation-name: move;
+    animation-duration: 7s;
+    animation-iteration-count: 2; */
+    animation: move 5s infinite;
+
+} 
+
+@keyframes move {
+    0% {
+        transform: translateX(22px);
+    }
+
+    50% {
+        transform: translateX(111px);
+        background: red;
+    }
+
+    75% {
+        transform: translateX(-150px);
+        background: lightgreen;
+    }
+
+    100% {
+        transform: translateX(22px);
+        background: purple;
+    }
+}
+
